@@ -1,0 +1,56 @@
+html {
+	height: 100%;
+	width: 100%;
+	margin-top: 0px;
+	background-color: #b5d0d0;
+	font-family: Georgia;
+}
+
+#topo {
+	border: 0px solid;
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	float: left;
+	margin-top: 0px;
+}
+
+#conteudo {
+	border: 0px solid;
+	width: 60%;
+	height: 670px;
+	float: left;
+}
+
+#cursos {
+	text-align: center;
+	border-left: 0px;
+	margin-left: 2px;
+	border-radius: .125em;
+	border: 1px solid #1978cf;
+	width: 39%;
+	height: 670px;
+	background-color: #b0d9eb;
+	float: left;
+	overflow: auto;
+}
+
+#rodape {
+	border: 0px solid;
+	width: 100%;
+	height: 20px;
+	float: left;
+}
+
+#map {
+	height: 100%;
+	border-radius: .150em;
+	border: 1px solid #1978cf;
+}
+
+.ifpi {
+	text-align: center;
+	width: 90px;
+	height: 90px;
+
+}

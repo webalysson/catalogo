@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Projeto</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+	<div id='topo'>
+      <h1>CATÁLOGO GEORREFERENCIADO DE CURSOS DO IFPI</h1>
+	</div>
+  
+	<div id='conteudo'>
+		  <div id="map"> </div>
+	</div>
+
+  <div id="cursos">
+          <img src="img/logo_ifpi_transp.png" width="300" height="90">
+  </div>
+  
+	<div id='rodape'>
+		
+	</div>
+
+<!-- Inserindo a bilioteca de mapas -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+  	<link href="https://opengeo.tech/maps/leaflet-search/src/leaflet-search.css" rel="stylesheet" type="text/css" />
+    <script src="js/leaflet-search.src.js" type="text/javascript"></script>
+   <script src="js/d3.min.js" type="text/javascript"></script>
+   <script src="js/pi_municipios_ifpi.json" type="text/javascript"></script>
+   <script src="js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
