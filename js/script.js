@@ -48,7 +48,7 @@ function dados_cursos(campus) {
 	nomes_cursos += `<h4>${campus}</h4><p><b>Cursos Técnicos:</b></p>`;
 	nomes_cursos += '<ul>'
 	// cursos técnicos
-	d3.csv("/dados/dados_cursos_tecnicos.csv", (d) => {
+	d3.csv("dados/dados_cursos_tecnicos.csv", (d) => {
 		if (d.campus == campus) {
 			nomes_cursos += '<li>' + d.curso + ' - ' + d.forma + '</li><br>';
 		}
@@ -62,7 +62,7 @@ function dados_cursos(campus) {
 		nomes_cursos += '<ul>'
 	});
 	//cursos superiores
-	d3.csv("/dados/dados_cursos_superiores.csv", (d) => {
+	d3.csv("dados/dados_cursos_superiores.csv", (d) => {
 		if (d.campus == campus) {
 			nomes_cursos += '<li>' + d.curso + ' - ' + d.grau + '</li><br>';
 		}
